@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="/src/input.css" />
+    <link rel="stylesheet" href="/src/output.css">
+
+    <!--feather icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body class="font-yana">
+    <!--navbar start-->
+    <nav
+      class="flex top-0 items-center z-9999 bg-black/70 fixed left-0 right-0 justify-between"
+    >
+      <div class="-space-x-2 mt-5">
+        <img src="/src/img/cireng.png" class="h-20 inline-block ml-5" alt="cireng" />
+        <a
+          href="#"
+          class=" md:text-[2rem] text-[1.4rem] font-bold mt-0 md:mt-2 inline text-amber-300 italic" 
+          >Cisi</a  
+        >
+      </div>
+
+      <!--navbar-->
+      <div id="navbar" class="md:text-white max-[758px]:transition-opacity max-[758px]:duration-500 max-[758px]:ease-in-out lg:opacity-100 opacity-0  max-[758px]:right-0 max-[758px]:left-50 md:text-[15px] max-[758px]:text-[1.3rem] max-[758px]:absolute md:relative md:inline-block max-[758px]:bg-amber-200 max-[758px]:h-[100vh] max-[758px]:top-[100%]">
+          <a class="max-[758px]:block max-[758px]:py-5 max-[758px]:px-4 max-[758px]:text-gray-700  max-[758px]:hover:bg-white max-[758px]:rounded" href="#home">Home</a></li>
+          <a class="max-[758px]:block max-[758px]:py-5 max-[758px]:px-4 max-[758px]:text-gray-700  max-[758px]:hover:bg-white max-[758px]:rounded" href="#menu">Menu</a></li>
+          <a class="max-[758px]:block max-[758px]:py-5 max-[758px]:px-4 max-[758px]:text-gray-700  max-[758px]:hover:bg-white max-[758px]:rounded" href="#contact">Contact</a></li>
+      </div>
+
+      <!--nevbarextra-->
+      <div class="mr-2 md:mr-5 inline-flex space-x-5 pr-10 text-amber-300 ">
+        <a href="#menu" id="shopping-cart "><i data-feather="shopping-cart"></i></a>
+        <input id="toggle" type="checkbox" class="hidden">
+        <label for="toggle">
+          <a class="md:hidden"><i data-feather="menu"></i></a>
+        </label>
+        
+      </div>
+    </nav>
+
+    <!--section hero start-->
+    <section id="home" class="">
+      <main class="flex items-center min-h-[100vh]">
+        <h1
+          class=" pl-20 font-bold text-slate-800 
+          max-[1600px]:pl-40 max-[1600px]:text-[4rem]
+          max-[900px]:pl-20 max-[900px]:text-[3.1rem] 
+          max-[450px]:pl-5 max-[450px]:text-[2rem]
+          "
+        >
+          Nikmati Sepiring <span class="text-amber-300">Cireng </span> isi
+        </h1>
+        <img
+          src="/src/img/cireng22.png"
+          alt=""
+          class="lg:h-130 lg:pl-40 xl:pr-20 sm:h-80 md:h-90 h-45 "
+        />
+      </main>
+      <p
+        class=" text-slate-800 absolute   
+        max-[1600px]:top-145 max-[1600px]:text-[2rem] max-[1600px]:left-40
+        max-[900px]:text-[1.5rem] max-[900px]:top-140 max-[900px]:left-20
+        max-[450px]:top-115 max-[450px]:left-5 max-[450px]:text-[0.8rem] 
+      "
+      >
+        dengan berbagai macam varian rasa
+      </p>
+      <a
+        href="#menu"
+        class="absolute hover:bg-yellow-300 px-3 py-2 rounded-md shadow-slate-700 bg-amber-200 text-gray-500 shadow-md 
+        max-[1600px]:left-40 max-[1600px]:top-160 max-[1600px]:text-[2rem]
+        max-[450px]:text-[0.8rem] max-[450px]:top-120 max-[450px]:left-5
+        max-[900px]:text-[1.2rem] max-[900px]:top-150 max-[900px]:left-20"
+
+        >Beli sekarang</a
+      >
+    </section>
+    <!-- SECTION HERO END -->
+
+    <!--menu section start-->
+    <section id="menu" class="pt-[8rem] h-[100vh]">
+      <h2 class="text-center text-[1.5rem] text-[#e6b646] lg:text-[2.6rem] font-semibold sm:text-[2rem]">
+        Menu <span class="text-slate">Kami</span>
+      </h2>
+      <p class="text-center text-slate-800 text-[15px]">
+        ini adalah menu yang ada di toko kami
+      </p>
+      <div class="columns-2 mx-auto w-80 h-300  mt-10 ">
+        <img class="h-38 w-90 -ml-5 mb-3" src="/src/img/isi aym.jpg" alt="">
+        <p class="text-[12px] -ml-2">cireng isi ayam suwir</p>
+        <p class="text-[12px] mb-10 ml-7.5">IDR 2000</p>
+        
+        <img class=" -ml-5 mb-3" src="/src/img/isi baso.jpg" alt="">
+        <p class="text-[12px] -ml-2 absolute">cireng isi baso pedas</p>
+        <p class="text-[12px] mb-10 ml-7.5 absolute mt-5">IDR 2000</p>
+
+        <img class=" ml-5 mb-4" src="/src/img/isi keju.jpg" alt="">
+        <p class="text-[12px] ml-13">cireng isi keju</p>
+        <p class="text-[12px] mb-9.5 ml-17">IDR 2000</p>
+
+        <img class=" ml-5 mb-3" src="/src/img/sosis.jpg" alt="">
+        <p class="text-[12px] ml-12 ">cireng isi sosis</p>
+        <p class="text-[12px] mb-10 ml-17">IDR 2000</p>
+      </div>
+    </section>
+
+    <!--contact section-->
+    <section id="contact" class="h-[100vh] pt-[8rem]">
+      <h2 class="text-center max-[450px]:text-[1.5rem] text-[2rem] font-semibold text-[#FFD66B] uppercase">contact and address</h2>
+      <p class="text-center max-[450px]:text-[0.8rem]">jika anda ingin memesan klik kontak di bawah ini</p>
+
+      <div class="flex mt-10 max-[1020px]:flex-wrap bg-[#F2F2F2] mx-[6rem] max-[1020px]:h-130 max-[450px]:w-100 justify-center items-center max-[450px]:mx-auto">
+
+        <!--address-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.9298361045794!2d106.23022107498971!3d
+      -6.140127993846787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDgnMjQuNSJTIDEwNsKwMTMnNTguMSJF
+      !5e0!3m2!1sid!2sid!4v1748994849497!5m2!1sid!2sid"
+       style="border:0;" allowfullscreen="" 
+       loading="lazy" 
+       referrerpolicy="no-referrer-when-downgrade" 
+       class="max-[1600px]:w-500 max-[1020px]:w-400 max-[450px]:w-300 max-[1020px]:h-80 max-[1600px]:h-120 
+       max-[1020px]:">
+      </iframe>
+      <!--contact-->
+     
+      <form action="" class="">
+        <div  class="border-2 rounded-full bg-green-400 animate-boune
+        max-[1600px]:mx-30 max-[1600px]:my-50 max-[1600px]:w-100 max-[1600px]:h-20  
+        max-[1020px]:mx-50 max-[1020px]:my-25 max-[900px]:w-80 max-[900px]:h-15
+        max-[450px]:mx-5 max-[450px]:my-25 max-[450px]:w-50 max-[450px]:h-10">
+           <a href="https://wa.me/6287786447909?text=mau%20pesen%20dong"><img src="/src/img/social.png" class="max-[1600px]:h-18 max-[900px]:h-13 max-[1600px]:-mt-0.7 max-[450px]:h-8" alt=""></a>
+           <a href="https://wa.me/6287786447909?text=mau%20pesen%20dong"><p class="text-[1.8rem] text-center max-[1600px]:mb-10 max-[1600px]:-mt-15 max-[1600px]:ml-25 max-[900px]:text-[1.3rem] max-[900px]:mx-15 max-[450px]:text-[0.8rem] max-[450px]:-mt-7.5">pesan via whatsapp</p></a>
+          
+        </div>
+
+      </form>
+      
+      </div>
+
+      
+    </section>
+
+
+    <!--feather icon-->
+    <script>
+      feather.replace();
+    </script>
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>
