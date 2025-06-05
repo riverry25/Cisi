@@ -289,14 +289,8 @@
   .h-\[25px\] {
     height: 25px;
   }
-  .h-\[70vh\] {
-    height: 70vh;
-  }
   .h-\[75vh\] {
     height: 75vh;
-  }
-  .h-\[80vh\] {
-    height: 80vh;
   }
   .h-\[100vh\] {
     height: 100vh;
@@ -635,6 +629,11 @@
       font-family: var(--font-mono);
     }
   }
+  .max-\[1600px\]\:text-\[1\.3rem\] {
+    @media (width < 1600px) {
+      font-size: 1.3rem;
+    }
+  }
   .max-\[1600px\]\:text-\[1\.5rem\] {
     @media (width < 1600px) {
       font-size: 1.5rem;
@@ -877,11 +876,6 @@
   .max-\[450px\]\:mx-auto {
     @media (width < 450px) {
       margin-inline: auto;
-    }
-  }
-  .max-\[450px\]\:my-1 {
-    @media (width < 450px) {
-      margin-block: calc(var(--spacing) * 1);
     }
   }
   .max-\[450px\]\:my-10 {
